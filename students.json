@@ -1,0 +1,22 @@
+[
+    {
+        "name" : "Einstein",
+        "scores" : [98, 72, 65]
+    },
+    {
+        "name" : "Newton",
+        "scores" : [48, 90, 74]
+    },
+    {
+        "name" : "Galileo",
+        "scores" : [26, 48, 67]
+    },
+    {
+        "name" : "Bohr",
+        "scores" : [79, 24, 99]
+    },
+    {
+        "name" : "Rutherford",
+        "scores" : [66, 42, 83]
+    }
+]
