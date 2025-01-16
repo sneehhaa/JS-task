@@ -30,7 +30,7 @@ for(let i = 0; i < students.length; i++) {
     const grade = grading(avg)
 
     console.log(`Name: ${student.name}`);
-    console.log(`Individual Scores: 10, 20, 30`);
+    console.log(`Individual Scores: ${student.scores.join()}`);
     console.log(`TotalScore: ${totalScore}`);
     console.log(`Pass/Fail: P F`); // min score for each subject to pass is 35
     console.log(`Average: ${avg}`);
