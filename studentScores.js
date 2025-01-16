@@ -32,12 +32,21 @@ const passorfail = (scores => {
     return "Pass";
 });
 
+let gradesCount = {
+    A : 0,
+    B : 0,
+    C : 0,
+    F : 0,
+};
+
 for(let i = 0; i < students.length; i++) {
     const student = students [i];
     const totalScore = totalScores(student.scores)
     const avg = Math.round(average(totalScore, student.scores.length))
     const PF = passorfail(student.scores)
     const grade = grading(avg)
+    gradesCount[grade]++;
+    
 
     console.log(`Name: ${student.name}`);
     console.log(`Individual Scores: ${student.scores.join()}`);
@@ -48,6 +57,11 @@ for(let i = 0; i < students.length; i++) {
     console.log("------------");
 };
 
+console.log("Grading Report:");
+console.log(`A: ${gradesCount.A}`);
+console.log(`B: ${gradesCount.B}`);
+console.log(`C: ${gradesCount.C}`);
+console.log(`F: ${gradesCount.F}`);
 
 // Report:
 
