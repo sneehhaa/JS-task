@@ -12,18 +12,19 @@ function average(totalScore, NOFSubjects) {
     return(totalScore / NOFSubjects);
 };
 
-function grading(average, isPass) {
-    if(isPass == "Fail") {
+function getGradingOfStundent(average, isPass) {
+    if(isPass) {
+        if(average >= 90 && average <= 100) { 
+            return "A";
+        } else if(average >= 75 && average < 90) {
+            return "B";
+        } else if(average >= 50 && average < 75) {
+            return "C";
+        }
+        return "D";
+    } else {
         return "F";
     }
-    if(average >= 90 && average <= 100) { 
-        return "A";
-    } else if(average >= 75 && average < 90) {
-        return "B";
-    } else if(average >= 50 && average < 75) {
-        return "C";
-    }
-    return "F";
 };
 
 const passOrFail = (scores => {
@@ -31,10 +32,10 @@ const passOrFail = (scores => {
     // scores.some((item)=> item < 35) ? "Fail" : "Pass";
     for(i = 0; i < scores.length; i++) {
         if(scores[i] < 35) {
-            return "Fail";
+            return false;
         }
     }
-    return "Pass";
+    return true;
 });
 
 const getIndScores = (scores => {
@@ -52,6 +53,7 @@ let gradesCount = {
     A : 0,
     B : 0,
     C : 0,
+    D : 0,
     F : 0,
 };
 
@@ -68,17 +70,16 @@ for(let i = 0; i < students.length; i++) {
     // console.log(`Individual Scores: ${student.scores.join()}`);
     console.log(`Individual Scores: ${getIndScores(student.scores)}`);
     console.log(`TotalScore: ${totalScore}`);
-    console.log(`Pass/Fail: ${isPass}`); // min score for each subject to pass is 35
+    console.log(`Pass/Fail: ${isPass ? "Pass" : "Fail"}`); // min score for each subject to pass is 35
     console.log(`Average: ${avg}`);
     console.log(`Grading: ${grade}`);
     console.log("------------");
 };
 
 console.log("Grading Report:");
-console.log(`A: ${gradesCount.A}`);
-console.log(`B: ${gradesCount.B}`);
-console.log(`C: ${gradesCount.C}`);
-console.log(`F: ${gradesCount.F}`);
+Object.keys(gradesCount).forEach(key => {
+    console.log(`${key}: ${gradesCount[key]}`);
+})
 
 // Report:
 
@@ -86,3 +87,8 @@ console.log(`F: ${gradesCount.F}`);
 // B: 
 // C: 
 // F: 
+
+// loggedInUserId, locationId, name, email, phone, dob
+updateUser(loggedInUserId, locationId, user: { name, email, phone, dob }) {
+    
+}
