@@ -1,22 +1,402 @@
 [
     {
-        "name" : "Einstein",
-        "scores" : [98, 72, 65]
+        "name": "Kepler1",
+        "scores": [40, 40, 39]
     },
     {
-        "name" : "Newton",
-        "scores" : [48, 90, 74]
+        "name": "Kepler2",
+        "scores": [27, 86, 55]
     },
     {
-        "name" : "Galileo",
-        "scores" : [26, 48, 67]
+        "name": "Newton3",
+        "scores": [97, 83, 24]
     },
     {
-        "name" : "Bohr",
-        "scores" : [79, 24, 99]
+        "name": "Curie4",
+        "scores": [78, 33, 65]
     },
     {
-        "name" : "Rutherford",
-        "scores" : [66, 42, 83]
+        "name": "Faraday5",
+        "scores": [94, 35, 90]
+    },
+    {
+        "name": "Planck6",
+        "scores": [53, 42, 64]
+    },
+    {
+        "name": "Darwin7",
+        "scores": [86, 76, 91]
+    },
+    {
+        "name": "Tesla8",
+        "scores": [88, 42, 36]
+    },
+    {
+        "name": "Copernicus9",
+        "scores": [59, 29, 86]
+    },
+    {
+        "name": "Turing10",
+        "scores": [96, 83, 98]
+    },
+    {
+        "name": "Hawking11",
+        "scores": [84, 63, 24]
+    },
+    {
+        "name": "Bohr12",
+        "scores": [47, 50, 92]
+    },
+    {
+        "name": "Rutherford13",
+        "scores": [34, 99, 73]
+    },
+    {
+        "name": "Archimedes14",
+        "scores": [68, 42, 66]
+    },
+    {
+        "name": "Euler15",
+        "scores": [76, 71, 85]
+    },
+    {
+        "name": "Dirac16",
+        "scores": [69, 54, 59]
+    },
+    {
+        "name": "Feynman17",
+        "scores": [46, 63, 71]
+    },
+    {
+        "name": "Heisenberg18",
+        "scores": [33, 79, 55]
+    },
+    {
+        "name": "Newton19",
+        "scores": [54, 91, 84]
+    },
+    {
+        "name": "Kepler20",
+        "scores": [40, 85, 72]
+    },
+    {
+        "name": "Curie21",
+        "scores": [68, 62, 87]
+    },
+    {
+        "name": "Faraday22",
+        "scores": [97, 72, 29]
+    },
+    {
+        "name": "Copernicus23",
+        "scores": [55, 64, 98]
+    },
+    {
+        "name": "Tesla24",
+        "scores": [92, 44, 26]
+    },
+    {
+        "name": "Pascal25",
+        "scores": [62, 88, 38]
+    },
+    {
+        "name": "Galileo26",
+        "scores": [99, 23, 46]
+    },
+    {
+        "name": "Rutherford27",
+        "scores": [39, 61, 72]
+    },
+    {
+        "name": "Archimedes28",
+        "scores": [64, 78, 82]
+    },
+    {
+        "name": "Turing29",
+        "scores": [81, 54, 92]
+    },
+    {
+        "name": "Einstein30",
+        "scores": [47, 83, 76]
+    },
+    {
+        "name": "Darwin31",
+        "scores": [31, 97, 51]
+    },
+    {
+        "name": "Planck32",
+        "scores": [85, 46, 78]
+    },
+    {
+        "name": "Hawking33",
+        "scores": [64, 29, 97]
+    },
+    {
+        "name": "Faraday34",
+        "scores": [44, 64, 58]
+    },
+    {
+        "name": "Newton35",
+        "scores": [33, 80, 96]
+    },
+    {
+        "name": "Kepler36",
+        "scores": [90, 55, 30]
+    },
+    {
+        "name": "Curie37",
+        "scores": [84, 66, 94]
+    },
+    {
+        "name": "Tesla38",
+        "scores": [69, 42, 39]
+    },
+    {
+        "name": "Feynman39",
+        "scores": [75, 58, 78]
+    },
+    {
+        "name": "Heisenberg40",
+        "scores": [87, 97, 88]
+    },
+    {
+        "name": "Archimedes41",
+        "scores": [64, 72, 80]
+    },
+    {
+        "name": "Bohr42",
+        "scores": [36, 50, 41]
+    },
+    {
+        "name": "Dirac43",
+        "scores": [53, 87, 96]
+    },
+    {
+        "name": "Pascal44",
+        "scores": [33, 75, 65]
+    },
+    {
+        "name": "Copernicus45",
+        "scores": [98, 44, 28]
+    },
+    {
+        "name": "Galileo46",
+        "scores": [61, 86, 47]
+    },
+    {
+        "name": "Planck47",
+        "scores": [70, 48, 88]
+    },
+    {
+        "name": "Darwin48",
+        "scores": [88, 33, 45]
+    },
+    {
+        "name": "Einstein49",
+        "scores": [42, 92, 61]
+    },
+    {
+        "name": "Turing50",
+        "scores": [71, 49, 57]
+    },
+    {
+        "name": "Kepler51",
+        "scores": [64, 90, 69]
+    },
+    {
+        "name": "Faraday52",
+        "scores": [88, 77, 36]
+    },
+    {
+        "name": "Bohr53",
+        "scores": [56, 44, 71]
+    },
+    {
+        "name": "Copernicus54",
+        "scores": [44, 63, 53]
+    },
+    {
+        "name": "Curie55",
+        "scores": [53, 68, 58]
+    },
+    {
+        "name": "Newton56",
+        "scores": [72, 33, 95]
+    },
+    {
+        "name": "Dirac57",
+        "scores": [76, 55, 89]
+    },
+    {
+        "name": "Hawking58",
+        "scores": [37, 92, 47]
+    },
+    {
+        "name": "Heisenberg59",
+        "scores": [95, 80, 68]
+    },
+    {
+        "name": "Feynman60",
+        "scores": [77, 54, 87]
+    },
+    {
+        "name": "Planck61",
+        "scores": [50, 69, 45]
+    },
+    {
+        "name": "Einstein62",
+        "scores": [44, 77, 33]
+    },
+    {
+        "name": "Kepler63",
+        "scores": [58, 62, 98]
+    },
+    {
+        "name": "Darwin64",
+        "scores": [77, 56, 48]
+    },
+    {
+        "name": "Galileo65",
+        "scores": [84, 32, 75]
+    },
+    {
+        "name": "Faraday66",
+        "scores": [59, 95, 85]
+    },
+    {
+        "name": "Tesla67",
+        "scores": [62, 44, 55]
+    },
+    {
+        "name": "Bohr68",
+        "scores": [88, 39, 47]
+    },
+    {
+        "name": "Archimedes69",
+        "scores": [91, 58, 72]
+    },
+    {
+        "name": "Newton70",
+        "scores": [54, 67, 90]
+    },
+    {
+        "name": "Turing71",
+        "scores": [64, 48, 77]
+    },
+    {
+        "name": "Dirac72",
+        "scores": [95, 45, 80]
+    },
+    {
+        "name": "Copernicus73",
+        "scores": [92, 36, 76]
+    },
+    {
+        "name": "Curie74",
+        "scores": [33, 90, 56]
+    },
+    {
+        "name": "Hawking75",
+        "scores": [60, 72, 85]
+    },
+    {
+        "name": "Kepler76",
+        "scores": [83, 77, 69]
+    },
+    {
+        "name": "Darwin77",
+        "scores": [88, 45, 50]
+    },
+    {
+        "name": "Einstein78",
+        "scores": [55, 91, 34]
+    },
+    {
+        "name": "Heisenberg79",
+        "scores": [43, 74, 96]
+    },
+    {
+        "name": "Planck80",
+        "scores": [69, 89, 63]
+    },
+    {
+        "name": "Rutherford81",
+        "scores": [78, 35, 99]
+    },
+    {
+        "name": "Archimedes82",
+        "scores": [59, 42, 70]
+    },
+    {
+        "name": "Galileo83",
+        "scores": [65, 75, 53]
+    },
+    {
+        "name": "Feynman84",
+        "scores": [56, 43, 45]
+    },
+    {
+        "name": "Bohr85",
+        "scores": [91, 64, 80]
+    },
+    {
+        "name": "Faraday86",
+        "scores": [72, 55, 33]
+    },
+    {
+        "name": "Newton87",
+        "scores": [84, 93, 76]
+    },
+    {
+        "name": "Curie88",
+        "scores": [34, 91, 65]
+    },
+    {
+        "name": "Tesla89",
+        "scores": [85, 40, 64]
+    },
+    {
+        "name": "Einstein90",
+        "scores": [79, 89, 57]
+    },
+    {
+        "name": "Hawking91",
+        "scores": [37, 66, 52]
+    },
+    {
+        "name": "Dirac92",
+        "scores": [63, 53, 49]
+    },
+    {
+        "name": "Galileo93",
+        "scores": [95, 74, 33]
+    },
+    {
+        "name": "Turing94",
+        "scores": [53, 81, 64]
+    },
+    {
+        "name": "Kepler95",
+        "scores": [92, 65, 50]
+    },
+    {
+        "name": "Planck96",
+        "scores": [58, 89, 87]
+    },
+    {
+        "name": "Faraday97",
+        "scores": [40, 99, 35]
+    },
+    {
+        "name": "Darwin98",
+        "scores": [64, 33, 93]
+    },
+    {
+        "name": "Copernicus99",
+        "scores": [48, 73, 82]
+    },
+    {
+        "name": "Archimedes100",
+        "scores": [73, 65, 41]
     }
 ]
