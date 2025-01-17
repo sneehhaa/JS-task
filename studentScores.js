@@ -12,7 +12,7 @@ function average(totalScore, NOFSubjects) {
     return(totalScore / NOFSubjects);
 };
 
-function getGradingOfStundent(average, isPass) {
+function grading(average, isPass) {
     if(isPass) {
         if(average >= 90 && average <= 100) { 
             return "A";
@@ -87,8 +87,3 @@ Object.keys(gradesCount).forEach(key => {
 // B: 
 // C: 
 // F: 
-
-// loggedInUserId, locationId, name, email, phone, dob
-updateUser(loggedInUserId, locationId, user: { name, email, phone, dob }) {
-    
-}
